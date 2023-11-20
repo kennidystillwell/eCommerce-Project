@@ -143,3 +143,13 @@ form {
     text-align: center;
     color: white;
   }
+
+  @media (max-width: 800px) {
+    input, textarea {
+      width: 100%; 
+    }
+  
+    #contact-form {
+      width: 80%;
+    }
+  }

@@ -12,7 +12,6 @@ body {
     z-index: -1;
   }
 
- 
 
 .nav {
     display: flex;
@@ -173,6 +172,16 @@ h4 {
 }
 
 @media (max-width: 800px) {
+    .carousel-inner {
+      flex-direction: column;
+      width: auto;
+    }
 
-}
+    #about {
+        width: 30vh;
+        margin: auto;
+        margin-top: 20px;
+    }
+  }
+
 
