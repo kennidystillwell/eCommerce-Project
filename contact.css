@@ -27,7 +27,6 @@ header {
 }
 
 #brand-name {
-    border: solid 2px black;
     background-color: rgba(0, 0, 0, 0.878);
     color: white;
     padding: 20px;
@@ -109,6 +108,16 @@ form {
   button {
     margin-top: 10px;
     padding: 5px 10px;
+    background-color:white;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  button:hover {
+    box-shadow: 0 0 10px rgba(115, 111, 111, 0.623);
+    transform: scale(1.2);
+    border: 2px solid rgb(243, 224, 240);
   }
 
   #contact-form{
