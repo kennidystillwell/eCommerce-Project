@@ -152,4 +152,16 @@ form {
     #contact-form {
       width: 80%;
     }
+
+    #subscribe-text {
+      font-size: large;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    #brand-name{
+      font-size: 80px;
+  }
   }

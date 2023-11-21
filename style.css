@@ -172,16 +172,57 @@ h4 {
 }
 
 @media (max-width: 800px) {
-    .carousel-inner {
-      flex-direction: column;
-      width: auto;
+    #brand-name{
+        font-size: 80px;
     }
-
+    
     #about {
-        width: 30vh;
+        width: 80%;
         margin: auto;
         margin-top: 20px;
     }
+
+    #about-us{
+        font-size: 40px;
+    }
+
+    .about-text{
+        font-size: large;
+    }
+
+    #featured{
+        font-size: 40px;
+    }
+    .carousel-item {
+        max-width: 80%;
+        margin: 0 10px;
+        box-sizing: border-box;
+        justify-content: center;
+
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .product-info {
+        font-size: larger;
+        width: 60%;
+        margin: auto;
+    }
+
+    .carousel-item img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .featured-products {
+        width: 90%;
+        justify-content: center;
+    }
+
   }
 
 
